@@ -1,0 +1,17 @@
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  max-width: 100%;
+  margin: 1rem;
+}

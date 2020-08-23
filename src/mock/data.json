@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Front-End Developer",
+    "company": "Tata Consultancy Services",
+    "description": "I have been working here for 2 years as a front end developer. I started my journey as a react native developer in 2018 and developed 4 client apps for ios in react native. I am currently working as a reactjs developer for a biotechnlogy based client website.",
+    "duration":"2018 to Present"
+
+  },
+  {
+    "title": "Trainee",
+    "company": "Defence Research & Development Organisation",
+    "description":"I worked as an intern in DRDO in 2017 and learned about various technologies involved in building modern warfare accessories for defense forces. I was mainly imparted knowledge about thermal imaging which is used in night vision goggles and binoculars",
+    "duration":"July 2017"
+  },
+  {
+    "title": "Trainee",
+    "company": "Chennai Metro Rail Corporation",
+    "description":"I worked as an intern in CMRC in 2015 and learned about various technologies involved in carrying out the efficient work of Chennai Metro. Learned about signalling and communication at the control centre of CMRC.",
+    "duration":"May 2015"
+  },
+  {
+    "title": "Trainee",
+    "company": "BSNL",
+    "description":"I worked as an intern in BSNL in 2015 and learned about an upcoming technology in broadband named NGN(Next Generation Network)",
+    "duration":"June 2015"
+  }
+]

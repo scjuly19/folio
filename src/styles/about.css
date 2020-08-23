@@ -1,0 +1,24 @@
+.main-about {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  padding: 20px;
+}
+
+.icon-sitting {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  max-width: 100%;
+  align-self: center;
+}
+.about-info {
+  padding: 2rem;
+  line-height: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  .main-about {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

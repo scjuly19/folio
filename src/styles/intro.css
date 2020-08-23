@@ -1,0 +1,65 @@
+.main-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 20px 20px 20px;
+  
+}
+.inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 1rem;
+  color: rgb(141, 141, 233);
+}
+
+.my-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  max-width: 100%;
+  align-self: center;
+}
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+ 
+}
+
+.skill {
+  padding: 30px;
+  background-color: #f9f9ff;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px dotted #90acd1;
+ 
+}
+.skill:hover {
+  color: white;
+  background-color: #90acd1;
+  transition: 0.45s all ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .skill-grid {
+    grid-template: repeat(6, 1fr) / 1fr;
+  }
+  .skill-title {
+    text-align: center;
+  }
+  .my-img {
+    margin-top: 1rem;
+  }
+  .main-intro{
+    padding-top: 0;
+  }
+ 
+}
+
