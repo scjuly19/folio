@@ -29,22 +29,30 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-
+pointer-events: none;
  
 }
-
+.skill-grid:hover>.skill:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  color: white;
+  background-color: #90acd1;
+  transition: 0.45s transform ease;
+  filter: none;
+}
+.skill-grid:hover>.skill{
+  opacity: 0.4;
+  filter: blur(1px);
+}
 .skill {
   padding: 30px;
   background-color: #f9f9ff;
   text-align: center;
   border-radius: 10px;
   border: 1px dotted #90acd1;
+  pointer-events: auto;
+
  
-}
-.skill:hover {
-  color: white;
-  background-color: #90acd1;
-  transition: 0.45s all ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -60,6 +68,7 @@
   .main-intro{
     padding-top: 0;
   }
+  
  
 }
 

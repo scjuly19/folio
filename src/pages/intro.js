@@ -13,7 +13,7 @@ const Intro = () => {
             <strong className="red-text">Sakshi</strong>
           </h1>
           <h1 id="subtitle">Front-End Developer | React-Native | ReactJs</h1>
-          <button className="red-btn btn">Hire Me</button>
+          <button className="red-btn btn animated-btn">Hire Me</button>
         </div>
 
         <img src={require("../images/me.jpg")} className="my-img" alt="" />
