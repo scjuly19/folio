@@ -27,7 +27,7 @@ const WorkCard = (props) => {
     <div className="card">
       <div className="row-container">
         <div>
-          <h1 className="title-work">{props.title}</h1>
+          <h1 style={{fontSize:28}}>{props.title}</h1>
           <h1 style={{fontSize:16}}>{props.company}</h1>
         </div>
 

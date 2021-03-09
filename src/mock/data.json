@@ -1,9 +1,15 @@
-[
+[{
+  "title": "Application Development Analyst",
+  "company": "Accenture",
+  "description": "Recently joined Accenture as an Application Development Analyst and working on ReactJs project to build website for clients in an agile environment.",
+  "duration":"Feb-2021 to Present"
+
+},
   {
     "title": "Front-End Developer",
     "company": "Tata Consultancy Services",
     "description": "I have been working here for 2 years as a front end developer. I started my journey as a react native developer in 2018 and developed 4 client apps for ios in react native. I am currently working as a reactjs developer for a biotechnlogy based client website.",
-    "duration":"2018 to Present"
+    "duration":"Sep-2018 to Feb-2021"
 
   },
   {

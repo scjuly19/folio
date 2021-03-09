@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/about.css";
 import "../styles/common.css";
+import resume from '../files/resume.pdf';
+
 const About = () => {
   return (
     <div id="about" className="main-about">
@@ -15,15 +17,14 @@ const About = () => {
           <strong>About Myself</strong>
         </h1>
         <p>
-          I am a front end developer having sound knowledge of react native,
-          react and JavaScript. I have been working for around 2 years and built
+          I am a FrontEnd Developer  proficient in React Native,
+          React and JavaScript. I have been working for around 2.5 years and built
           pixel perfect buttery smooth UI for clients. I love creating
           clean,beautiful, interactive and user friendly UI. I have developed
-          ios apps using react native and currently getting my hands on react
-          js.
+          ios apps using React Native and websites using ReactJs.
         </p>
         <div>
-          <a download href={"/files/resume.pdf"} rel="noopener noreferrer">
+          <a download href={resume} rel="noopener noreferrer">
             <button className="btn red-btn">Resume</button>
           </a>
         </div>

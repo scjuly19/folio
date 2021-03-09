@@ -24,6 +24,9 @@ const Intro = () => {
         <h1 className="skill">React</h1>
         <h1 className="skill">React Native</h1>
         <h1 className="skill">Redux</h1>
+        <h1 className="skill">ReduxSaga</h1>
+        <h1 className="skill">Bootstrap</h1>
+        <h1 className="skill">D3.js</h1>
         <h1 className="skill">CSS</h1>
         <h1 className="skill">HTML</h1>
       </div>
