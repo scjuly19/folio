@@ -19,7 +19,7 @@
   padding: 30px;
   background-color: #f9f9ff;
   border-radius: 10px;
-  border: 1px solid #90acd1;
+  border: 1px solid #818CF8;
   transition: all 0.4s;
   position: relative;
   overflow: hidden;
@@ -67,7 +67,7 @@
   right: 0;
   margin: 0;
   background-color: white;
-  border: 1px solid #90acd1;
+  border: 1px solid #818CF8;
 }
 @media screen and (max-width: 1024px) {
   .card-container {

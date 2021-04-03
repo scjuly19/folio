@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="about" className="main-about">
       <img
-        src={require("../images/about.jpg")}
+        src={require("../images/about.svg")}
         className="icon-sitting"
         alt=""
       />
@@ -25,10 +25,11 @@ const About = () => {
         </p>
         <div>
           <a download href={resume} rel="noopener noreferrer">
-            <button className="btn red-btn">Resume</button>
+            <button className="btn purple-btn">Resume</button>
           </a>
         </div>
       </div>
+     
     </div>
   );
 };

@@ -3,6 +3,8 @@
   margin-top: 2rem;
   justify-content: center;
   padding: 20px;
+  background-color: #F3F4F6  ;
+
 }
 
 .icon-sitting {
@@ -11,6 +13,7 @@
   border-radius: 50%;
   max-width: 100%;
   align-self: center;
+  transform: scaleX(-1);
 }
 .about-info {
   padding: 2rem;

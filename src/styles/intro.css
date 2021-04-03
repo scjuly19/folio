@@ -4,7 +4,6 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 50px 20px 20px 20px;
-  
 }
 .inner-container {
   display: flex;
@@ -15,13 +14,13 @@
 
 #subtitle {
   font-size: 1rem;
-  color: rgb(141, 141, 233);
+  color: #a5b4fc;
 }
 
 .my-img {
   height: 300px;
   width: 300px;
-  border-radius: 50%;
+
   max-width: 100%;
   align-self: center;
 }
@@ -29,18 +28,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-pointer-events: none;
- 
+  pointer-events: none;
 }
-.skill-grid:hover>.skill:hover{
+.skill-grid:hover > .skill:hover {
   opacity: 1;
   transform: scale(1.05);
   color: white;
-  background-color: #90acd1;
+  background-color: #8b5cf6;
   transition: 0.45s transform ease;
   filter: none;
 }
-.skill-grid:hover>.skill{
+.skill-grid:hover > .skill {
   opacity: 0.4;
   filter: blur(1px);
 }
@@ -51,8 +49,6 @@ pointer-events: none;
   border-radius: 10px;
   border: 1px dotted #90acd1;
   pointer-events: auto;
-
- 
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,10 +61,7 @@ pointer-events: none;
   .my-img {
     margin-top: 1rem;
   }
-  .main-intro{
+  .main-intro {
     padding-top: 0;
   }
-  
- 
 }
-

@@ -3,8 +3,9 @@ import Intro from "./intro";
 import About from "./about";
 import Work from "./work";
 import Contact from "./contacts";
+import Projects from "./Projects";
 import "../styles/home.css";
-import '../styles/common.css';
+import "../styles/common.css";
 
 const Home = () => {
   const onclick = (id) => {
@@ -21,14 +22,14 @@ const Home = () => {
       case "home":
         document.getElementById("home").scrollIntoView();
         break;
+      case "projects":
+        document.getElementById("projects").scrollIntoView();
+        break;
       default:
         window.scrollTo(0, 0);
         break;
     }
   };
-  // const showNavBar = () => {
-
-  // };
   return (
     <div className="container">
       <div className="navbar">
@@ -37,6 +38,7 @@ const Home = () => {
         <button onClick={() => onclick("about")}>About</button>
 
         <button onClick={() => onclick("work")}>Work</button>
+        <button onClick={() => onclick("projects")}>Projects</button>
 
         <button onClick={() => onclick("contact")}>Contact</button>
       </div>
@@ -44,6 +46,7 @@ const Home = () => {
       <Intro />
       <About />
       <Work />
+      <Projects />
       <Contact />
     </div>
   );
