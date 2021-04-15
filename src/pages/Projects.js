@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class my extends Component {
   render() {
     return (
-      <div id="projects">
+      <div id="projects" className="alignContent">
         <h1>Projects</h1>
         <p>
           Here are some of the projects I have made so far. Many more to come

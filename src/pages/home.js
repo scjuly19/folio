@@ -6,6 +6,7 @@ import Contact from "./contacts";
 import Projects from "./Projects";
 import "../styles/home.css";
 import "../styles/common.css";
+import Blogs from "./blogs";
 
 const Home = () => {
   const onclick = (id) => {
@@ -25,6 +26,9 @@ const Home = () => {
       case "projects":
         document.getElementById("projects").scrollIntoView();
         break;
+        case "blogs":
+        document.getElementById("blogs").scrollIntoView();
+        break;
       default:
         window.scrollTo(0, 0);
         break;
@@ -39,6 +43,7 @@ const Home = () => {
 
         <button onClick={() => onclick("work")}>Work</button>
         <button onClick={() => onclick("projects")}>Projects</button>
+        <button onClick={() => onclick("blogs")}>Blogs</button>
 
         <button onClick={() => onclick("contact")}>Contact</button>
       </div>
@@ -47,6 +52,7 @@ const Home = () => {
       <About />
       <Work />
       <Projects />
+      <Blogs/>
       <Contact />
     </div>
   );
