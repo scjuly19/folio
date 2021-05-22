@@ -9,10 +9,8 @@ const Contacts = () => {
           If I look like a match for the one you are looking for, feel free to
           reach out to me!
         </p>
-        
-          <span>E-mail- scjuly69@gmail.com</span>
-         
-     
+
+        <span>E-mail- scjuly69@gmail.com</span>
       </div>
       <h1>Follow Me</h1>
       <div className="icon-container">
@@ -42,6 +40,18 @@ const Contacts = () => {
           alt=""
         >
           <img alt="" src={require("../icons/github.png")} className="icon" />
+        </a>
+        <a
+          href="https://www.twitter.com/scjuly19"
+          target="_blank"
+          rel="noopener noreferrer"
+          alt=""
+        >
+          <img
+            alt=""
+            src={require("../icons/twitter-sign.png")}
+            className="icon"
+          />
         </a>
       </div>
     </div>

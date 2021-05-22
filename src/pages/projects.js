@@ -28,7 +28,7 @@ export default class my extends Component {
           </a>
           <a
             className="links"
-            href="https://repl.it/@replSakshi/know-me#index.js"
+            href="https://github.com/scjuly19/know-me.git"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ export default class my extends Component {
           </a>
           <a
             className="links"
-            href="https://repl.it/@replSakshi/end-game#index.js"
+            href="https://github.com/scjuly19/end-game.git"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -69,7 +69,7 @@ export default class my extends Component {
           </p>
           <a
             className="links"
-            href="https://confident-roentgen-6817c7.netlify.app/"
+            href="https://talk-banana-to-me.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -85,14 +85,15 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>Emoji Interpreter</h1>
+          <h1>Flag Interpreter</h1>
           <p>
-            Made this simple React app which gives out the meaning of different
-            emojis as the user inputs any emoji or taps on the emoji.
+            Made this simple React app which gives out the country name of
+            different flags as the user inputs any flag or taps on any of the
+            flags.
           </p>
           <a
             className="links"
-            href="https://nqv27.csb.app/"
+            href="https://find-the-country.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -100,7 +101,7 @@ export default class my extends Component {
           </a>
           <a
             className="links"
-            href="https://codesandbox.io/s/cool-curran-nqv27?file=/src/App.js"
+            href="https://github.com/scjuly19/country-flag.git"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -110,22 +111,21 @@ export default class my extends Component {
         <section className="center-section">
           <h1>Countdown Timer</h1>
           <p>
-            I made this project as a solution to a challenge on
-            {" "}
+            I made this project as a solution to a challenge on{" "}
             <a
               href="https://www.frontendmentor.io/solutions"
               target="_blank"
               rel="noopener noreferrer"
             >
               <strong>FrontEnd Mentor</strong>
-            </a>{" "}. Technologies used are HTML,CSS and
-            JavaScript. The responsiveness was handled using CSS grid and CSS
-            flexbox. I brushed up my knowledge of CSS and JavaScript via this
-            project.
+            </a>{" "}
+            . Technologies used are HTML,CSS and JavaScript. The responsiveness
+            was handled using CSS grid and CSS flexbox. I brushed up my
+            knowledge of CSS and JavaScript via this project.
           </p>
           <a
             className="links"
-            href="https://compassionate-cori-632b72.netlify.app/"
+            href="https://counting-days.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -153,12 +153,12 @@ export default class my extends Component {
             </a>{" "}
             .This was designed with a mobile first approach. I wanted to learn
             SCSS basics so I styled this webpage using SCSS and learned a lot
-            about the fundamentals of SCSS like variables,mixins,extends and partials. Still a lot
-            to learn though but off to a good start!
+            about the fundamentals of SCSS like variables,mixins,extends and
+            partials. Still a lot to learn though but off to a good start!
           </p>
           <a
             className="links"
-            href="https://tender-minsky-dc3c00.netlify.app/"
+            href="https://support-crowdfund.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -167,6 +167,68 @@ export default class my extends Component {
           <a
             className="links"
             href="https://github.com/scjuly19/crowdfunding-product-page-main.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source Code
+          </a>
+        </section>
+        <section className="center-section">
+          <h1>Verify IFSC</h1>
+          <p>
+            I made this web app to verify the ifsc code of any bank in India. I
+            came up with this when i faced the difficulty in validating a ifsc
+            code before making any transaction. I made use of React to make this
+            website and styled the components using emotionJs. This project was
+            setup using parcel and babel from scratch in order to learn the
+            fundamentals behind building a project. I gained a understanding of
+            development tools like parcel, babel, ESLint and prettier through
+            this project.In order to fetch the bank details, I have used a
+            public API made by <b>Razorpay</b>. Its a very simple to use API
+            which gets you details of a bank based on the ifsc code.
+          </p>
+          <a
+            className="links"
+            href="https://verify-ifsc.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore
+          </a>
+          <a
+            className="links"
+            href="https://github.com/scjuly19/verify-ifsc.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Source Code
+          </a>
+        </section>
+        <section className="center-section">
+          <h1>ToDo List</h1>
+          <p>
+            This website was made to add list of items the user want to
+            accomplish. The user can add,delete and mark the task as done once
+            the task is completed. This has support for dark and light theme.
+            There are filters to filter the tasks based n the status of the
+            tasks. I used NextJs to make the app components as I wanted to learn
+            the basics behind it. I learned what is NextJs and what is server
+            side rendering. I am still in the process of learning it thought but
+            this was just a starter. To store the list, I made use of google
+            firebase as a database. I learned how to add and remove data to
+            firebase.
+          </p>
+          <a
+            className="links"
+            href="https://tasks-checklist.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore
+          </a>
+          <a
+            className="links"
+            href="https://github.com/scjuly19/todo.git"
             target="_blank"
             rel="noopener noreferrer"
           >
