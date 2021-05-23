@@ -7,6 +7,7 @@ import Projects from "./projects";
 import "../styles/home.css";
 import "../styles/common.css";
 import Blogs from "./blogs";
+import NavBar from "../components/navbar";
 
 const Home = () => {
   const onclick = (id) => {
@@ -26,7 +27,7 @@ const Home = () => {
       case "projects":
         document.getElementById("projects").scrollIntoView();
         break;
-        case "blogs":
+      case "blogs":
         document.getElementById("blogs").scrollIntoView();
         break;
       default:
@@ -36,23 +37,12 @@ const Home = () => {
   };
   return (
     <div className="container">
-      <div className="navbar">
-        <button onClick={() => onclick("home")}>Home</button>
-
-        <button onClick={() => onclick("about")}>About</button>
-
-        <button onClick={() => onclick("work")}>Work</button>
-        <button onClick={() => onclick("projects")}>Projects</button>
-        <button onClick={() => onclick("blogs")}>Blogs</button>
-
-        <button onClick={() => onclick("contact")}>Contact</button>
-      </div>
-
+      <NavBar onclick={onclick} />
       <Intro />
       <About />
       <Work />
       <Projects />
-      <Blogs/>
+      <Blogs />
       <Contact />
     </div>
   );
