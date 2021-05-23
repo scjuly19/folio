@@ -3,13 +3,13 @@ import React from "react";
 export default function Blogs() {
   return (
     <div id="blogs" className="alignContent">
-      <h1>Blogs</h1>
+      <h2 className="sub-title">Blogs</h2>
       <p>
         I like to write and document my learning sometimes. Here is a glimpse of
         blogs written by me.
       </p>
       <section className="center-section">
-        <h1>Getting started with your first project in React-Native.</h1>
+        <h2>Getting started with your first project in React-Native.</h2>
         <p>
           I wrote this blog when I started learning React Native and had to
           setup the project for the first time. It was quite complicated and so
@@ -27,7 +27,7 @@ export default function Blogs() {
         </a>
       </section>
       <section className="center-section">
-        <h1>How do Closures work in JavaScript?</h1>
+        <h2>How do Closures work in JavaScript?</h2>
         <p>
           I recently started learning some advance JavaScript concepts and
           closures is one of them. It took me sometime to get my head around

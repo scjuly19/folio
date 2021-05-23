@@ -1,13 +1,10 @@
 .work-main {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
   padding: 20px;
+  text-align: left;
 }
-.work-main h1 {
-  align-self: flex-start;
-}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -19,7 +16,7 @@
   padding: 30px;
   background-color: #f9f9ff;
   border-radius: 10px;
-  border: 1px solid #818CF8;
+  border: 1px solid #818cf8;
   transition: all 0.4s;
   position: relative;
   overflow: hidden;
@@ -67,7 +64,7 @@
   right: 0;
   margin: 0;
   background-color: white;
-  border: 1px solid #818CF8;
+  border: 1px solid #818cf8;
 }
 @media screen and (max-width: 1024px) {
   .card-container {

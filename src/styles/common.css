@@ -1,27 +1,23 @@
 .title {
   font-size: 5rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #6B7280;
- 
+  color: #6b7280;
 }
 
 .text {
-  color:#8B5CF6;
-  
-  
+  color: #8b5cf6;
 }
-.alignContent{
-  padding:1rem;
- 
+.alignContent {
+  padding: 1rem;
 }
-.center-section{
-  background-color: #F3F4F6;
-padding: 1rem;
-border-bottom-right-radius: 1rem;
-margin-top: 1rem;
+.center-section {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-top: 1rem;
 }
-.links{
-  padding: .5rem;
+.links {
+  padding: 0.5rem;
   display: block;
 }
 .btn {
@@ -30,89 +26,84 @@ margin-top: 1rem;
   border-radius: 30px;
 }
 
-.purple-btn{
+.purple-btn {
   color: white;
-  background-color: #8B5CF6;
+  background-color: #8b5cf6;
   border: 1px transparent solid;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   position: relative;
-  
 }
 .purple-btn:hover {
-  border-color: #8B5CF6;
+  border-color: #8b5cf6;
   background-color: white;
-  color: #8B5CF6;
+  color: #8b5cf6;
   transition: 0.6s ease;
   z-index: 1;
 }
-.purple-btn:before, .purple-btn::after{
+.purple-btn:before,
+.purple-btn::after {
   height: 20px;
   width: 20px;
-  content: '';
+  content: "";
   background-color: white;
   position: absolute;
   top: 50%;
   border-radius: 50%;
   z-index: -1;
-  
 }
-.purple-btn:before{
+.purple-btn:before {
   left: -30px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.purple-btn:after{
+.purple-btn:after {
   right: -30px;
-  transform: translate(50%,-50%);
-
+  transform: translate(50%, -50%);
 }
-.purple-btn:hover::before{
-  animation: toRight .45s forwards;
-  
+.purple-btn:hover::before {
+  animation: toRight 0.45s forwards;
 }
-.purple-btn:hover::after{
-  animation: toLeft .45s forwards;
+.purple-btn:hover::after {
+  animation: toLeft 0.45s forwards;
 }
-@keyframes toRight{
-  0%{
-    left:-30px
+@keyframes toRight {
+  0% {
+    left: -30px;
   }
-  50%{
-    left:50%;
+  50% {
+    left: 50%;
     height: 20px;
-    width:20px;
-
+    width: 20px;
   }
-  100%{
+  100% {
     left: 50%;
     height: 100%;
-    width:100%;
+    width: 100%;
     border-radius: inherit;
   }
 }
 
-@keyframes toLeft{
-  0%{
+@keyframes toLeft {
+  0% {
     right: -30px;
   }
-  50%{
+  50% {
     right: 50%;
     height: 20px;
     width: 20px;
   }
-  100%{
+  100% {
     right: 50%;
     height: 100%;
     width: 100%;
     border-radius: inherit;
   }
 }
-.sub-title{
-  font-size: 3rem;
-  
+.sub-title {
+  font-size: 2rem;
 }
-@media screen and (max-width:1024px){
-  .sub-title{
+@media screen and (max-width: 1024px) {
+  .sub-title {
     line-height: 3rem;
   }
 }

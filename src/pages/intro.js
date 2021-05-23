@@ -3,7 +3,6 @@ import "../styles/intro.css";
 import "../styles/common.css";
 
 const Intro = () => {
- 
   return (
     <div className="main-intro">
       <div id="home" className="inner-container">
@@ -14,22 +13,21 @@ const Intro = () => {
           </h1>
           <h1 id="subtitle">Front-End Developer | React-Native | ReactJs</h1>
           <button className="purple-btn btn">Hire Me</button>
-        
         </div>
 
         <img src={require("../images/me.svg")} className="my-img" alt="" />
       </div>
-      <h1 className="sub-title">Technologies</h1>
+      <h2 className="sub-title">Technologies</h2>
       <div className="skill-grid">
-        <h1 className="skill">JavaScript</h1>
-        <h1 className="skill">React</h1>
-        <h1 className="skill">React Native</h1>
-        <h1 className="skill">Redux</h1>
-        <h1 className="skill">ReduxSaga</h1>
-        <h1 className="skill">Bootstrap</h1>
-        <h1 className="skill">D3.js</h1>
-        <h1 className="skill">CSS</h1>
-        <h1 className="skill">HTML</h1>
+        <h2 className="skill">JavaScript</h2>
+        <h2 className="skill">React</h2>
+        <h2 className="skill">React Native</h2>
+        <h2 className="skill">Redux</h2>
+        <h2 className="skill">ReduxSaga</h2>
+        <h2 className="skill">Bootstrap</h2>
+        <h2 className="skill">D3.js</h2>
+        <h2 className="skill">CSS</h2>
+        <h2 className="skill">HTML</h2>
       </div>
     </div>
   );

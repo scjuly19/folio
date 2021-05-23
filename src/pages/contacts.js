@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/contact.css";
 const Contacts = () => {
   return (
-    <div id="contact" className="contact-main">
+    <footer id="contact" className="contact-main">
       <div>
-        <h1 className="sub-title">Contact Me</h1>
+        <h2 className="sub-title">Contact Me</h2>
         <p>
           If I look like a match for the one you are looking for, feel free to
           reach out to me!
@@ -12,7 +12,6 @@ const Contacts = () => {
 
         <span>E-mail- scjuly69@gmail.com</span>
       </div>
-      <h1>Follow Me</h1>
       <div className="icon-container">
         <a
           href="https://www.linkedin.com/in/scjuly19"
@@ -54,7 +53,7 @@ const Contacts = () => {
           />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

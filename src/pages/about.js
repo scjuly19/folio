@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import "../styles/common.css";
-import resume from '../files/resume.pdf';
+import resume from "../files/resume.pdf";
 
 const About = () => {
   return (
@@ -13,13 +13,13 @@ const About = () => {
       />
 
       <div className="about-info">
-        <h1 className="sub-title">
+        <h2 className="sub-title">
           <strong>About Myself</strong>
-        </h1>
+        </h2>
         <p>
-          I am a FrontEnd Developer  proficient in React Native,
-          React and JavaScript. I have been working for around 2.5 years and built
-          pixel perfect buttery smooth UI for clients. I love creating
+          I am a FrontEnd Developer proficient in React Native, React and
+          JavaScript. I have been working for around 2.5 years and built pixel
+          perfect buttery smooth UI for clients. I love creating
           clean,beautiful, interactive and user friendly UI. I have developed
           ios apps using React Native and websites using ReactJs.
         </p>
@@ -29,7 +29,6 @@ const About = () => {
           </a>
         </div>
       </div>
-     
     </div>
   );
 };

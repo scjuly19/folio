@@ -13,7 +13,7 @@ export default class my extends Component {
         </p>
 
         <section className="center-section">
-          <h1>CLI Quiz about me.</h1>
+          <h2>CLI Quiz about me</h2>
           <p>
             I made this small CLI Quiz app which contains some questions about
             me. I used readline-sync plugin and JavaScript.
@@ -36,7 +36,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>F.R.I.E.N.D.S Quiz</h1>
+          <h2>F.R.I.E.N.D.S Quiz</h2>
           <p>
             Made another quiz app about one of my all time favorite TV show. I
             used the same technologies as the earlier CLI app except I added
@@ -60,7 +60,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>Banana Translator</h1>
+          <h2>Banana Translator</h2>
           <p>
             I made this fun translator using which you can convert plain English
             into the language of Minions called Banana.I used the API from
@@ -85,7 +85,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>Flag Interpreter</h1>
+          <h2>Flag Interpreter</h2>
           <p>
             Made this simple React app which gives out the country name of
             different flags as the user inputs any flag or taps on any of the
@@ -109,7 +109,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>Countdown Timer</h1>
+          <h2>Countdown Timer</h2>
           <p>
             I made this project as a solution to a challenge on{" "}
             <a
@@ -141,7 +141,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>Design of Landing Page for crowdfund website</h1>
+          <h2>Design of Landing Page for crowdfund website</h2>
           <p>
             Designed this beautiful landing page as a solution to a challenge on{" "}
             <a
@@ -174,7 +174,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>Verify IFSC</h1>
+          <h2>Verify IFSC</h2>
           <p>
             I made this web app to verify the ifsc code of any bank in India. I
             came up with this when i faced the difficulty in validating a ifsc
@@ -205,7 +205,7 @@ export default class my extends Component {
           </a>
         </section>
         <section className="center-section">
-          <h1>ToDo List</h1>
+          <h2>ToDo List</h2>
           <p>
             This website was made to add list of items the user want to
             accomplish. The user can add,delete and mark the task as done once
