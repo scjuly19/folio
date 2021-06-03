@@ -5,12 +5,7 @@ const Contacts = () => {
     <footer id="contact" className="contact-main">
       <div>
         <h2 className="sub-title">Contact Me</h2>
-        <p>
-          If I look like a match for the one you are looking for, feel free to
-          reach out to me!
-        </p>
-
-        <span>E-mail- scjuly69@gmail.com</span>
+        <p>Feel free to reach out to me!</p>
       </div>
       <div className="icon-container">
         <a
