@@ -12,14 +12,22 @@
 }
 .card {
   border: 1px solid;
-  line-height: 2rem;
-  padding: 30px;
+  line-height: 1.5rem;
+  padding: 10px 30px;
   background-color: #f9f9ff;
   border-radius: 10px;
   border: 1px solid #818cf8;
   transition: all 0.4s;
   position: relative;
   overflow: hidden;
+
+}
+.card p{
+  margin: 0;
+  padding: 10px 0px;
+}
+.card h2{
+  margin:10px 0px;
 }
 .card:hover {
   border: none;

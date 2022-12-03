@@ -1,0 +1,1 @@
+export const skills=["ReactJs","React Native","JavaScript","HTML","CSS","Redux","Redux-Toolkit","Redux-Saga","GraphQL","BootStrap","Tailwind Css","React-Router"]

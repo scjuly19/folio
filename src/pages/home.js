@@ -3,7 +3,7 @@ import Intro from "./intro";
 import About from "./about";
 import Work from "./work";
 import Contact from "./contacts";
-import Projects from "./projects";
+import { Projects } from "./projects";
 import "../styles/home.css";
 import "../styles/common.css";
 import Blogs from "./blogs";
