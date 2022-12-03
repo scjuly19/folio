@@ -43,6 +43,20 @@ export default function Blogs() {
           Read it here...
         </a>
       </section>
+      <section className="center-section">
+        <h2>Blogs on Hashnode</h2>
+        <p>
+          I have started writing some blogs on hashnode recently. You can find all of those at the below URL. Hashnode is a great platform to share and learn and that's the reason I decided to contribute through it.
+        </p>
+        <a
+          className="links"
+          href="https://sakshichaudhary.hashnode.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Here's my hashnode blog..
+        </a>
+      </section>
     </div>
   );
 }

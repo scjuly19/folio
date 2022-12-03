@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/intro.css";
 import "../styles/common.css";
+import { skills } from "../mock/skills";
 
 const Intro = () => {
   return (
@@ -19,15 +20,7 @@ const Intro = () => {
       </div>
       <h2 className="sub-title">Technologies</h2>
       <div className="skill-grid">
-        <h2 className="skill">JavaScript</h2>
-        <h2 className="skill">React</h2>
-        <h2 className="skill">React Native</h2>
-        <h2 className="skill">Redux</h2>
-        <h2 className="skill">ReduxSaga</h2>
-        <h2 className="skill">Bootstrap</h2>
-        <h2 className="skill">D3.js</h2>
-        <h2 className="skill">CSS</h2>
-        <h2 className="skill">HTML</h2>
+        {skills.map(item=><h2 className="skill">{item}</h2>)}
       </div>
     </div>
   );

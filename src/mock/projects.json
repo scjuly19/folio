@@ -1,0 +1,60 @@
+{
+    "levelOne": [
+        {
+            "title": "Splash UI- A component library",
+            "description": "This is a component library made purely using HTML and CSS. This can be imported and used in projects as required. It has various components like Card, Navigation Header, Badges,",
+            "link": "https://splash-ui-lib.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/splash-ui.git"
+        },
+        {
+            "title": "Fluffy Tails",
+            "description": "Taking into consideration my love for dogs, I built this beautiful ECommerce site called Fluffy Tails. This is a scaffold having all the essential functionalities of an ecommerce website. I learned to handle authetication and protected routes while building this site. I also learned and used various custom hooks while building this site.",
+            "link": "https://fluff-fy-tails.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/fluffy-tails.git"
+        }
+    ],
+    "levelZero": [
+        {
+            "title": "CLI Quiz about me",
+            "description": "I made this small CLI Quiz app which contains some questions about me. I used readline-sync plugin and JavaScript.",
+            "link": "https://repl.it/@replSakshi/know-me?embed=1&output=1.#index.js",
+            "githubLink": "https://github.com/scjuly19/know-me.git"
+        },
+        {
+            "title": "F.R.I.E.N.D.S Quiz",
+            "description": " Made another quiz app about one of my all time favorite TV show. I used the same technologies as the earlier CLI app except I added some styling to this one using an amazing plugin called CHALK.",
+            "link": "https://repl.it/@replSakshi/end-game?embed=1&output=1.#index.js",
+            "githubLink": "https://github.com/scjuly19/end-game.git"
+        },
+        {
+            "title": "Banana Translator",
+            "description": "I made this fun translator using which you can convert plain English into the language of Minions called Banana.I used the API from funtranslations.com and the code is written using vanilla JS,CSS and HTML. Go ahead and try the banana way of talking!",
+            "link": "https://talk-banana-to-me.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/translator.git/"
+        },
+        {
+            "title": "Flag Interpreter",
+            "description": " Made this simple React app which gives out the country name of different flags as the user inputs any flag or taps on any of the flags.",
+            "link": "https://find-the-country.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/country-flag.git"
+        },
+        {
+            "title": "Countdown Timer",
+            "description": " I made this project as a solution to a challenge on FrontEnd Mentor.Technologies used are HTML,CSS and JavaScript. The responsivenesswas handled using CSS grid and CSS flexbox. I brushed up my knowledge of CSS and JavaScript via this project.",
+            "link": "https://counting-days.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/launch-countdown-timer-main.git"
+        },
+        {
+            "title": "Verify IFSC",
+            "description": "  I made this web app to verify the ifsc code of any bank in India. I came up with this when i faced the difficulty in validating a ifsc code before making any transaction. I made use of React to make this website and styled the components using emotionJs. This project was setup using parcel and babel from scratch in order to learn the fundamentals behind building a project. I gained a understanding of development tools like parcel, babel, ESLint and prettier through this project.In order to fetch the bank details, I have used a public API made by <b>Razorpay</b>. Its a very simple to use API which gets you details of a bank based on the ifsc code.",
+            "link": "https://verify-ifsc.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/verify-ifsc.git"
+        },
+        {
+            "title": "To Do",
+            "description": "his website was made to add list of items the user want to accomplish. The user can add,delete and mark the task as done once the task is completed. This has support for dark and light theme. There are filters to filter the tasks based n the status of the tasks. I used NextJs to make the app components as I wanted to learn the basics behind it. I learned what is NextJs and what is server side rendering. I am still in the process of learning it thought but this was just a starter. To store the list, I made use of google firebase as a database. I learned how to add and remove data to firebase.",
+            "link": "https://tasks-checklist.netlify.app/",
+            "githubLink": "https://github.com/scjuly19/todo.git"
+        }
+    ]
+}
