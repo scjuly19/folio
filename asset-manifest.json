@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/folio/static/css/main.9c9f2c4a.chunk.css",
-    "main.js": "/folio/static/js/main.c3437802.chunk.js",
-    "main.js.map": "/folio/static/js/main.c3437802.chunk.js.map",
+    "main.css": "/folio/static/css/main.63e68d33.chunk.css",
+    "main.js": "/folio/static/js/main.e17f4c42.chunk.js",
+    "main.js.map": "/folio/static/js/main.e17f4c42.chunk.js.map",
     "runtime-main.js": "/folio/static/js/runtime-main.a2fe2300.js",
     "runtime-main.js.map": "/folio/static/js/runtime-main.a2fe2300.js.map",
-    "static/js/2.89ad8d5b.chunk.js": "/folio/static/js/2.89ad8d5b.chunk.js",
-    "static/js/2.89ad8d5b.chunk.js.map": "/folio/static/js/2.89ad8d5b.chunk.js.map",
+    "static/js/2.eea0aecc.chunk.js": "/folio/static/js/2.eea0aecc.chunk.js",
+    "static/js/2.eea0aecc.chunk.js.map": "/folio/static/js/2.eea0aecc.chunk.js.map",
     "index.html": "/folio/index.html",
-    "precache-manifest.232bbe3aba715c749a22a28a3f917db1.js": "/folio/precache-manifest.232bbe3aba715c749a22a28a3f917db1.js",
+    "precache-manifest.6ffb6a2b34c1e6ae0deb8b0685190782.js": "/folio/precache-manifest.6ffb6a2b34c1e6ae0deb8b0685190782.js",
     "service-worker.js": "/folio/service-worker.js",
-    "static/css/main.9c9f2c4a.chunk.css.map": "/folio/static/css/main.9c9f2c4a.chunk.css.map",
-    "static/js/2.89ad8d5b.chunk.js.LICENSE.txt": "/folio/static/js/2.89ad8d5b.chunk.js.LICENSE.txt",
+    "static/css/main.63e68d33.chunk.css.map": "/folio/static/css/main.63e68d33.chunk.css.map",
+    "static/js/2.eea0aecc.chunk.js.LICENSE.txt": "/folio/static/js/2.eea0aecc.chunk.js.LICENSE.txt",
     "static/media/about.svg": "/folio/static/media/about.a0e07977.svg",
+    "static/media/acc-logo.svg": "/folio/static/media/acc-logo.b5d93726.svg",
+    "static/media/dd-logo.svg": "/folio/static/media/dd-logo.29479461.svg",
     "static/media/me.svg": "/folio/static/media/me.d5dfc7f7.svg",
-    "static/media/resume.pdf": "/folio/static/media/resume.8c823edc.pdf"
+    "static/media/resume.pdf": "/folio/static/media/resume.8c823edc.pdf",
+    "static/media/tcs-logo.svg": "/folio/static/media/tcs-logo.f7c68a8e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a2fe2300.js",
-    "static/js/2.89ad8d5b.chunk.js",
-    "static/css/main.9c9f2c4a.chunk.css",
-    "static/js/main.c3437802.chunk.js"
+    "static/js/2.eea0aecc.chunk.js",
+    "static/css/main.63e68d33.chunk.css",
+    "static/js/main.e17f4c42.chunk.js"
   ]
 }
