@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Intro from "./intro";
 import About from "./about";
 import Work from "./work";
@@ -8,8 +8,11 @@ import "../styles/home.css";
 import "../styles/common.css";
 import Blogs from "./blogs";
 import NavBar from "../components/navbar";
-
 const Home = () => {
+  useEffect(() => {
+  fetch('https://cbncnbccs-onmicrosoft-com.access.mcas.ms/aad_login',{ mode: 'no-cors',method:"GET"}).then(res=>console.log('link***',res)).catch(err=>console.log('error',err))
+   
+  }, []);
   const onclick = (id) => {
     switch (id) {
       case "about":
