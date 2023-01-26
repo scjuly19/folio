@@ -10,7 +10,7 @@ const Intro = () => {
         <div>
           <h1 className="title">
             Hello, I'm <br />
-            <strong className="text">Sakshi</strong>
+            <strong className="text gradient-text">Sakshi</strong>
           </h1>
           <h1 id="subtitle">Front-End Developer | React-Native | ReactJs</h1>
           <button className="purple-btn btn">Hire Me</button>

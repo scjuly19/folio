@@ -8,7 +8,7 @@
   color: #8b5cf6;
 }
 .alignContent {
-  padding: 1rem;
+  padding: 0rem 1rem;
 }
 .center-section {
   background-color: #f3f4f6;
@@ -65,6 +65,27 @@
 }
 .purple-btn:hover::after {
   animation: toLeft 0.45s forwards;
+}
+.gradient-text{
+  --bg-size: 400%;
+  --color-one: rgb(147, 37, 244);
+  --color-two: rgba(156, 144, 237, 0.239);
+  font-family: sans-serif;
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  animation: move-bg 8s infinite linear;
+}
+@keyframes move-bg{
+to{
+  background-position:var(--bg-size) 0 ;
+}
 }
 @keyframes toRight {
   0% {

@@ -1,7 +1,7 @@
 .work-main {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0 20px;
   text-align: left;
 }
 
@@ -76,7 +76,7 @@
 }
 @media screen and (max-width: 1024px) {
   .card-container {
-    grid-template: repeat(4, 1fr) / 1fr;
+    grid-template: repeat(3, 1fr) / 1fr;
   }
 }
 @media screen and (max-width: 1280px) {

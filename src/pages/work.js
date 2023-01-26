@@ -31,7 +31,6 @@ const WorkCard = (props) => {
           <img src={props.logo} alt="logo"/>
           <h2 style={{ fontSize: 16 }}>{props.title}</h2>
         </div>
-
         <button className="work-btn btn">{props.duration}</button>
       </div>
 
